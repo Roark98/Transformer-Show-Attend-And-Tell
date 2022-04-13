@@ -8,3 +8,4 @@ This repository contains an adaptation of the architecture proposed by the [Show
 The 2014 version of the COCO dataset was used for this work. The [Training](http://images.cocodataset.org/zips/train2014.zip) and [Validation](http://images.cocodataset.org/zips/val2014.zip) sets can be found in the attached links.
 
 ## Relevant commands
+- python train.py
