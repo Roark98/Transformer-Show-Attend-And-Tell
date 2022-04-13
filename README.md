@@ -11,7 +11,7 @@ This repository contains an adaptation of the architecture proposed by the [Show
 
 The 2014 version of the COCO dataset was used for this work. The [Training](http://images.cocodataset.org/zips/train2014.zip) and [Validation](http://images.cocodataset.org/zips/val2014.zip) sets can be found in the attached links.
 
-Once the dataset has been downloaded, a preliminary step must be carried out before it can be used. Due to the considerable number of images, the project works with HDF5 files where all images will be split and stored, while JSON files will include the associated captions and caption lengths. To do this, it is required to run the script ===create_input_files.py===. This file makes use of the function of the same name within the utils.py file, which specifies the nature of each field that the user must edit depending on its directory structure.
+Once the dataset has been downloaded, a preliminary step must be carried out before it can be used. Due to the considerable number of images, the project works with HDF5 files where all images will be split and stored, while JSON files will include the associated captions and caption lengths. To do this, it is required to run the script ==create_input_files.py==. This file makes use of the function of the same name within the utils.py file, which specifies the nature of each field that the user must edit depending on its directory structure.
 
 ## Relevant commands
 - python train.py
