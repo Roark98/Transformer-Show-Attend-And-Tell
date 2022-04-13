@@ -5,4 +5,6 @@ This repository contains an adaptation of the architecture proposed by the [Show
 
 ## Dataset
 
+[Training](http://images.cocodataset.org/zips/train2014.zip) and [Validation](http://images.cocodataset.org/zips/val2014.zip)
+
 ## Training and Inference
