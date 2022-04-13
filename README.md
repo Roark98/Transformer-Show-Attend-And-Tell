@@ -1,0 +1,2 @@
+# Transformer-Show-Attend-And-Tell
+This repository contains an adaptation of the architecture proposed by the Show, Attend and Tell paper. Our proposal focuses on replacing the convolutional component used by its original encoder by a structure based on Transformer networks. This contribution was respectively documented in the paper Deep Learning Approaches Based on Transformer Architectures for Image Captioning Tasks.
