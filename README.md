@@ -4,3 +4,5 @@ This repository contains an adaptation of the architecture proposed by the [Show
 ## Description of the files
 
 ## Dataset
+
+## Train and Inference
