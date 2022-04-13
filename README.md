@@ -3,6 +3,10 @@ This repository contains an adaptation of the architecture proposed by the [Show
 
 ## Description of the main files
 
+- train.py: 
+- caption.py:
+- models.py:
+
 ## Dataset
 
 The 2014 version of the COCO dataset was used for this work. The [Training](http://images.cocodataset.org/zips/train2014.zip) and [Validation](http://images.cocodataset.org/zips/val2014.zip) sets can be found in the attached links.
@@ -11,3 +15,4 @@ Once the dataset has been downloaded, a preliminary step must be carried out bef
 
 ## Relevant commands
 - python train.py
+- python caption.py --img='path/to/image.jpeg' --model='path/to/BEST_checkpoint_coco_5_cap_per_img_5_min_word_freq.pth.tar' --word_map='path/to/WORDMAP_coco_5_cap_per_img_5_min_word_freq.json'
