@@ -5,4 +5,4 @@ This repository contains an adaptation of the architecture proposed by the [Show
 
 ## Dataset
 
-## Train and Inference
+## Training and Inference
