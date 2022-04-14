@@ -5,7 +5,7 @@ This repository contains an adaptation of the architecture proposed by the [Show
 
 - train.py: 
 - caption.py:
-- models.py:
+- models.py: It contains the architecture that makes up the encoder, the LSTM network for the decoder, the attentional system, and its corresponding configurations. By default it is set to use the pre-trained ViT-base model provided by the HuggingFace repository.
 
 ## Dataset
 
