@@ -15,7 +15,7 @@ Once the dataset has been downloaded, a preliminary step must be carried out bef
 
 ## Relevant commands
 - Training of the network:<br>
-<span style="color:blue">python train.py</span>.
+<span style="background-color:blue">python train.py</span>.
 
 - Inference for a specific input image:<br>
 python caption.py --img='path/to/image.jpeg' --model='path/to/BEST_checkpoint_coco_5_cap_per_img_5_min_word_freq.pth.tar' --word_map='path/to/WORDMAP_coco_5_cap_per_img_5_min_word_freq.json'
